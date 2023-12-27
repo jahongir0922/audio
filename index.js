@@ -9,6 +9,15 @@ const musics = [
     },
   },
   {
+    nomi: "Billie Eilish - Bellyache",
+    manzil: function () {
+      return `music/${this.nomi}.mp3`;
+    },
+    rasm: function () {
+      return `images/${this.nomi}.jpg`;
+    },
+  },
+  {
     nomi: "Charlie Puth - Light Switch",
     manzil: function () {
       return `music/${this.nomi}.mp3`;
