@@ -3,6 +3,21 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Audio player" />
+    <meta name="keywords" content="HTML, CSS, JavaScript, audio" />
+    <meta
+      name="keyframes"
+      content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa minima atque harum et perspiciatis ratione corrupti vero, obcaecati aut, praesentium rem voluptatum dolorum maiores blanditiis labore, soluta ex nisi rerum?"
+    />
+    <meta name="author" content="Qodirov Jahongir" />
+    <!-- open graph image -->
+    <meta property="og:imag" content="./icon/android-chrome-192x192" />
+    <meta property="og:title" content="Audio tegi ogi title" />
+    <meta property="og:description" content="Audio tegi ogi description" />
+    <meta property="og:image:width" content="2501" />
+    <meta property="og:image:height" content="1307" />
+
+    <!-- open graph image -->
     <title>Audio player</title>
     <link rel="shortcut icon" href="" type="image/x-icon" />
     <link
@@ -10,6 +25,30 @@
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
     />
     <link rel="stylesheet" href="./style.css" />
+    <!-- 
+      favicon
+     -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./icon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./icon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./icon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="./icon/site.webmanifest" />
+    <!-- 
+       favicon
+      -->
   </head>
   <body>
     <img id="main_fon" alt="" />
@@ -45,7 +84,11 @@
       <div class="playerIcon">
         <span class="material-symbols-outlined"> repeat </span>
         <span class="material-symbols-outlined"> shuffle </span>
-        <span  id="queue_music" onclick="open_music_list()" class="material-symbols-outlined">
+        <span
+          id="queue_music"
+          onclick="open_music_list()"
+          class="material-symbols-outlined"
+        >
           queue_music
         </span>
       </div>
