@@ -33,6 +33,7 @@ body > img {
   background-color: rgba(0, 0, 0, 0.2);
   box-shadow: 0 0 5px black;
   border-radius: 15px;
+  position: relative;
 }
 .info_music {
   padding: 10px;
@@ -96,4 +97,30 @@ body > img {
 .time span {
   color: white;
   user-select: none;
+}
+.music_list {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  padding: 15px;
+  background-color: white;
+  width: 90%;
+  height: 90%;
+  transform: translate3D(-50%, -50%, 0);
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  overflow: scroll;
+  display: none;
+  z-index: 9;
+}
+.music_item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 5px;
+}
+.music_item_img {
+  width: 30px;
 }
